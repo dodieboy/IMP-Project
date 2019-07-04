@@ -53,21 +53,23 @@
 	<div class="container">
 		<div class="list-group">
 			<li class="list-group-item bg-dark">
-				<h3 class="text-white">Login</h3>
+				<h3 class="text-white">Printing Services</h3>
 			</li>
-        <div class="list-group-item list-group-item-action">
-          <form class="list-group-item-one" id="login" method="POST">
-            <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Student ID</h5>
-            </div>
-            <input type="text" class="login-textbox" placeholder="Student ID" title="Please fill in your username" name="username" id="username">
-            <p></p>
-            <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Password</h5>
-            </div>
-            <input type="text" class="login-textbox" placeholder="Password" title="Please fill in your password" name="password" id="password">
-            <button type="submit" id="login-button">Login</button>
-          </form>
+        <div class="list-group-item list-group-item-action list-center center-text">
+          <p>Please Choose how you would like it to be printed. </p>
+          <input type="radio" name="color" value="Colored"> Colored</input>
+          <input type="radio" name="color" value="Black & White"> Black & White<br></input>
+          <input type="radio" name="sided" value="Single Sided"> Single Sided</input>
+          <input type="radio" name="sided" value="Double Sided"> Double Sided<br></input>
+          <label>Paper size: </label>
+          <input type="radio" name="size" value="Single Sided"> A3</input>
+          <input type="radio" name="size" value="Double Sided"> A4</input>
+          <p>Please choose page to print</p>
+          <input type="text" class="page-textbox" title="Please select file to print" name="page1" id="page1">
+          <label> to </label>
+          <input type="text" class="page-textbox" title="Please select file to print" name="page2" id="page2"><br>
+          <a href="printer-school-payments.html" class="printer-button-style-1 printer-button-size-1"><span>Next</span></a>
+          <a href="printer-school-1.html" class="printer-button-style-1 printer-button-size-1 printer-button-size-3"><span>Back</span></a>
         </div>
 		</div>
 	</div>
