@@ -23,18 +23,16 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">NP libary information system</a>
+      <a class="navbar-brand" href="home.html">NP libary information system</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
           <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item active">
             <a class="nav-link" href="printer-home.html">Printing</a>
           </li>
           <li class="nav-item">
@@ -53,21 +51,46 @@
 	<div class="container">
 		<div class="list-group">
 			<li class="list-group-item bg-dark">
-				<h3 class="text-white">Login</h3>
+				<h3 class="text-white">Select order:</h3>
 			</li>
-        <div class="list-group-item list-group-item-action">
-          <form class="list-group-item-one" id="login" method="POST">
-            <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Student ID</h5>
-            </div>
-            <input type="text" class="login-textbox" placeholder="Student ID" title="Please fill in your username" name="username" id="username">
-            <p></p>
-            <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Password</h5>
-            </div>
-            <input type="text" class="login-textbox" placeholder="Password" title="Please fill in your password" name="password" id="password">
-            <button type="submit" id="login-button">Login</button>
-          </form>
+        <div class="list-group-item list-group-item-action list-center">
+          <table border="1">
+            <tr>
+              <th>Order number</th>
+              <th>Due</th>
+              <th>Cost</th>
+              <th>Action</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>0001</th>
+              <th>04 July 2019</th>
+              <th>$0.50</th>
+              <th><a href="#"><span>confirm</span></a></th>
+              <th><a href="#"><span>Contact buyer</span></a></th>
+            </tr>
+            <tr>
+              <th>0002</th>
+              <th>04 July 2019</th>
+              <th>$0.10</th>
+              <th><a href="#"><span>confirm</span></a></th>
+              <th><a href="#"><span>Contact buyer</span></a></th>
+            </tr>
+            <tr>
+              <th>0003</th>
+              <th>04 July 2019</th>
+              <th>$0.4</th>
+              <th><a href="#"><span>confirm</span></a></th>
+              <th><a href="#"><span>Contact buyer</span></a></th>
+            </tr>
+            <tr>
+              <th>0004</th>
+              <th>04 July 2019</th>
+              <th>$0.22</th>
+              <th><a href="#"><span>confirm</span></a></th>
+              <th><a href="#"><span>Contact buyer</span></a></th>
+            </tr>
+          </table>
         </div>
 		</div>
 	</div>

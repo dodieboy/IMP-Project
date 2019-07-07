@@ -91,4 +91,7 @@ a:hover{
         margin: 0;
         text-align: center;
     }
+    .table-bordered td, .table-bordered th{
+        font-size: 11px;
+    }
 }
